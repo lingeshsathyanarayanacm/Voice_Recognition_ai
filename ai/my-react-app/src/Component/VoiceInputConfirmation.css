@@ -1,0 +1,41 @@
+.voice-input-confirmation {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: flex-start;
+    margin-top: -350px;
+     /* Align items to the start of the container */
+  }
+  
+  .voice-input-confirmation p {
+    margin: 0;
+    
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .voice-input-confirmation p:first-child {
+    font-weight: bold;
+    margin-bottom: auto; /* Push other content to the bottom */
+  }
+  
+  .voice-input-confirmation .confirmation-button {
+    margin-bottom: 200px; /* Add some space between the confirmation message and the button */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .voice-input-confirmation .confirmation-button:hover {
+    background-color: #0056b3;
+  }
+  
